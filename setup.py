@@ -12,7 +12,7 @@ with open(
 
 setup(
     name="changelogmd",
-    version="0.0.3",
+    version="0.0.4",
     description="Python module and CLI tool for CHANGELOG.md manipulation.",
     long_description=long_description,
     long_description_content_type="text/markdown",
