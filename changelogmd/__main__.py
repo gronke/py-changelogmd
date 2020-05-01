@@ -56,9 +56,9 @@ def run(*args):
 
     try:
         if str(version) == "latest":
-            section = changelog.sections[0]
+            section = changelog.versions[0]
         else:
-            section = changelog.get_section(version)
+            section = changelog.get_version(version)
     except KeyError as e:
         print(str(e).strip("\""), file=sys.stderr)
         exit(1)
